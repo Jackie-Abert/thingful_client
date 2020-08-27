@@ -8,7 +8,6 @@ export default class Header extends Component {
   handleLogoutClick = () => {
     TokenService.clearAuthToken()
   }
-
   renderLogoutLink() {
     return (
       <div className='Header__logged-in'>
